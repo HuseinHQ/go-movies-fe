@@ -8,6 +8,7 @@ const router = createBrowserRouter([
   {
     path: '/',
     element: <App />,
+    errorElement: <h1>Mustahil gaada page nya</h1>,
     children: [
       {
         path: '',
